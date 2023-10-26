@@ -1,0 +1,10 @@
+.landing {
+    display: grid;
+    height: 100vh;
+    background:
+        linear-gradient(rgba(87, 87, 87, 0.3),
+            rgba(53, 52, 52, 0.5)),
+        url('../../assets/evie-s-_8vovuZCj0c-unsplash.jpg');
+    background-size: cover;
+    background-position: center;
+}
