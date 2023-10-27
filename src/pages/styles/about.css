@@ -2,9 +2,13 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
 }
 
 .me {
+    border-radius: 50%;
     height: 40vh;
     margin-top: 8vh;
 }

@@ -1,0 +1,14 @@
+.partner-landing {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.Ashley {
+    border-radius: 50%;
+    height: 40vh;
+    margin-top: 8vh;
+}

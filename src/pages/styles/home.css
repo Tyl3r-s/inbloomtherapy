@@ -4,18 +4,24 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    height: 100vh;
-    background:
-        linear-gradient(rgba(255, 255, 255, 0.3),
-            rgba(255, 255, 255, 0.5)),
-        url('../../assets/evie-s-_8vovuZCj0c-unsplash.jpg');
+    height: 100%;
     background-size: cover;
     background-position: center;
 }
 
-p {
-    margin-top: 0;
-    width: 90%;
+.homeImg {
+    height: 40vh;
+    margin: 4vh;
+}
+
+.landing p {
+    margin-bottom: 3vh;
+    width: 80%;
     font-size: 25px;
     letter-spacing: 1px;
+}
+
+.imgTtl {
+    margin: 0;
+    text-align: center;
 }

@@ -3,8 +3,10 @@ import Home from './pages/home';
 import Partners from './pages/partners';
 import About from './pages/about';
 import Banner from './pages/components/banner';
+import Promo from './pages/components/promo';
+import Footer from './pages/components/footer';
 import './App.css';
-import './pages/styles/banner.css';
+import './pages/styles/general.css';
 import {
   createBrowserRouter,
   createRoutesFromElements,
@@ -35,12 +37,13 @@ export default function App(props) {
 
 const Root = () => {
   return (
-  <>
-    <Banner />
-
-    <div>
-      <Outlet />
-    </div>
-  </>
+    <>
+      <Promo />
+      <Banner />
+        <div>
+          <Outlet />
+        </div>
+      <Footer />
+    </>
   )
 }

@@ -1,16 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Sunflower:wght@500&family=Zeyada&display=swap');
+
 .banner {
-    height: 5vh;
+    height: 45vh;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    background-image: url('../../assets/tomoko-uji-kxvn1ogpTtE-unsplash.jpg');
+    background-size: cover;
+    background-position-y: -20vh;
+    color: rgb(21, 97, 97);
 }
 
-h2 {
-    margin-left: 0;
+.logoTitle {
+    font-family: 'Sunflower', sans-serif;
+    margin: 0;
+    width: 120px;
+    font-size: 30px;
+    color: rgb(21, 97, 97);
 }
 
-a {
-    color: black;
+.logoWords {
+    margin: 9px 0 0 2px;
+    font-family: 'Cedarville Cursive';
+    font-size: 14px;
+    width: 150px;
+    color: rgb(21, 97, 97);
+}
+
+.logo {
+    display: flex;
+}
+
+.banner a {
+    color: rgb(21, 97, 97);
     text-decoration: none;
 }
 

@@ -1,10 +1,10 @@
 import React from 'react';
 import './styles/about.css'
-import portrait from '../assets/c96a6cbd-3100-4c58-bf14-d041a37a9700-PhotoRoom-removebg-preview.png'
+import portrait from '../assets/c96a6cbd-3100-4c58-bf14-d041a37a9700.jpg';
 
 export default function Home() {
   return (
-    <section className="about-section">
+    <section className="about-section general">
 
         <img src={portrait} alt="" className="me" />
 

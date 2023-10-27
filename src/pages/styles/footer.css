@@ -1,0 +1,17 @@
+.footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contact-info p {
+    font-size: 15px;
+}
+
+.contact-links {
+    display: grid;
+}
+
+.contact-links a {
+    margin: 1vh;
+}
