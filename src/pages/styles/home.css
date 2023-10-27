@@ -1,10 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Zeyada&display=swap');
+
 .landing {
-    display: grid;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     height: 100vh;
     background:
-        linear-gradient(rgba(87, 87, 87, 0.3),
-            rgba(53, 52, 52, 0.5)),
+        linear-gradient(rgba(255, 255, 255, 0.3),
+            rgba(255, 255, 255, 0.5)),
         url('../../assets/evie-s-_8vovuZCj0c-unsplash.jpg');
     background-size: cover;
     background-position: center;
+}
+
+p {
+    margin-top: 0;
+    width: 90%;
+    font-size: 25px;
+    letter-spacing: 1px;
 }

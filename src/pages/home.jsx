@@ -5,9 +5,9 @@ export default function Home() {
   return (
     <section className="landing">
 
-          <h1>
-            In Bloom Therapy and Wellness
-          </h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia repellendus fugiat pariatur voluptate, rem dolores sunt recusandae, perspiciatis, cupiditate vel a laborum beatae sapiente deleniti! Temporibus nulla id dolore quod.
+          </p>
 
         <div className="bgimg" />
 
