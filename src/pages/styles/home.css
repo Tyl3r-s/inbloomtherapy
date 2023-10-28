@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Zeyada&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Sunflower:wght@300&family=Zeyada&display=swap');
 
 .landing {
     display: flex;
@@ -9,19 +9,61 @@
     background-position: center;
 }
 
-.homeImg {
-    height: 40vh;
-    margin: 4vh;
+.landingSection {
+    height: 80vh;
+    width: 100%;
+    font-family: 'Sunflower', sans-serif;
+    font-weight: 300;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
 }
 
-.landing p {
-    margin-bottom: 3vh;
-    width: 80%;
-    font-size: 25px;
-    letter-spacing: 1px;
+.landingQuote {
+    background:
+        linear-gradient(rgba(255, 255, 255, 0.835),
+            rgba(255, 255, 255, 0.515)),
+            url('../../assets/ama-journey-VYnfRLhV09Q-unsplash.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
-.imgTtl {
-    margin: 0;
+.landingQuote h4 {
+    background-color: white;
+    padding: 15px;
+    font-weight: 300;
+    font-size: 3vh;
+    opacity: 0.8;
+}
+
+.welcomeText {
+    font-size: 20px;
+    font-family: 'Sunflower', sans-serif;
+}
+
+.booking {
+    background-image: url('../../assets/anna-sullivan-ARrM9jUl780-unsplash.jpg');
+    background-size: cover;
+}
+
+.booking a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    background-color: white;
+    padding: 15px;
+    opacity: 0.8;
+}
+
+.learnMore div {
+    display: flex;
+    width: 40%;
+    margin: 2%;
+    flex-wrap: wrap;
+    justify-content: center;
     text-align: center;
 }

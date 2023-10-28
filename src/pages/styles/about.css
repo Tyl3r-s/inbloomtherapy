@@ -13,6 +13,16 @@
     margin-top: 8vh;
 }
 
-p {
-    margin: 3vh 0 0 4vw;
+.aboutIntro {
+    text-align: center;
+    width: 80%;
+    border-top: 5px solid rgb(21, 97, 97, 0.5);
+    border-bottom: 5px solid rgb(21, 97, 97, 0.5);
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin: 25px;
+}
+
+.aboutText {
+    width: 80%;
 }

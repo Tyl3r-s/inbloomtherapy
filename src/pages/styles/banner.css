@@ -1,29 +1,46 @@
-@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Sunflower:wght@500&family=Zeyada&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Sunflower:wght@300&family=Zeyada&display=swap');
 
 .banner {
-    height: 45vh;
+    height: 70vh;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
-    align-items: center;
     background-image: url('../../assets/tomoko-uji-kxvn1ogpTtE-unsplash.jpg');
     background-size: cover;
-    background-position-y: -20vh;
+    background-position: center;
     color: rgb(21, 97, 97);
+}
+
+.bannerMenu {
+    width: 100vw;
+    height: 5vh;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 3vh 1vw 0 1vw;
+}
+
+.bannerTitle {
+    font-size: 30px;
+    font-family: 'Sunflower', sans-serif;
 }
 
 .logoTitle {
     font-family: 'Sunflower', sans-serif;
+    letter-spacing: 1px;
     margin: 0;
-    width: 120px;
-    font-size: 30px;
+    width: 160px;
+    font-size: 40px;
     color: rgb(21, 97, 97);
 }
 
 .logoWords {
-    margin: 9px 0 0 2px;
+    margin: 13px 0 0 5px;
+    letter-spacing: 1px;
     font-family: 'Cedarville Cursive';
-    font-size: 14px;
-    width: 150px;
+    font-size: 18px;
+    width: 180px;
     color: rgb(21, 97, 97);
 }
 
@@ -38,4 +55,15 @@
 
 a:hover {
     color: gray;
+}
+
+.learnMore a {
+    text-decoration: none;
+    color: black;
+    background-color: rgba(106, 195, 195, 0.729);
+    padding: 8px;
+}
+
+.learnMore a:hover {
+    color: white;
 }

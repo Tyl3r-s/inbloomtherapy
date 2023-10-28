@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './styles/home.css';
 
 
@@ -6,39 +7,39 @@ export default function Home() {
   return (
     <section className="landing general">
 
-      <p>
-        <h5>
-        Welcome to In Bloom Therapy and Wellness, where personal healing and growth are cultivated, one individual at a time.
-        </h5>
+      <div className="welcomeText landingSection">
         <p>
-        I understand that life's challenges can sometimes feel like a storm, obscuring the sunlight and hindering personal growth. I believe that within every individual, there is the potential to bloom, to thrive, and to lead a fulfilling life. I, as well as my partners, am here to guide you on your journey toward mental and emotional well-being.
+          Where Seeds of Self-Compassion Blossom into Beautiful Souls.
         </p>
-        <h5>
-        Why Choose In Bloom Therapy and Wellness?
-        </h5>
-        <p>
-        I offer more than just therapy - it's a sanctuary for your support and transformation. With years of experience and a strong commitment to providing personalized, evidence-based care, I am dedicated to helping you navigate life’s complexities. Whether you are dealing with anxiety, depression, relationship issues, or the stress of everyday life, I provide a safe space where you can explore your feelings, gain insights, and develop coping strategies tailored specifically to your needs.
-        </p>
-        <h5>
-          Personalized Attention
-        </h5>
-        <p>
-        I focus solely on your specific needs, ensuring you receive tailored attention and care designed just for you.
-        </p>
-        <h5>
-        Confidential and Caring Environment
-        </h5>
-        <p>
-        In my safe and confidential space, you can openly express your thoughts and concerns, knowing that you are in the hands of a compassionate professional who values your privacy and comfort.
-        </p>
-        <h5>
-        Take the First Step:
-        </h5>
-        <p>
-        Embark on your journey toward healing and self-discovery with In Bloom Therapy and Wellness. I am here to guide you through your transformative process. Don’t hesitate to reach out and schedule a consultation. Your path to a brighter, more balanced future begins here. Let’s nurture your growth and help you flourish, one step at a time.
-        </p>
+      </div>
+      <div className="booking landingSection">
+        <Link to='/'> book a complimentary consultation </Link>
+      </div>
 
-      </p>
+      <div className="learnMore landingSection">
+        <div className="readMore">
+          <p>Are impacted by an anxiety, depression, or grief? I am here to assist you.</p>
+          <Link to='/'> LEARN ABOUT ME </Link>
+        </div>
+        <div className="createBooking">
+          <p>I want to get to know you. Book a consultation, or create a virtual or in person appointment.</p>
+          <Link to='/'> CREATE BOOKING </Link>
+        </div>
+        <div className="commonQuestions">
+          <p>I believe wellness ultimately requires attention to our entire body</p>
+          <Link to='/'> SEE PARTNERS </Link>
+        </div>
+        <div className="seePartners">
+          <p>For any other questions or concerns, please feel absolutely free to reach out to me.</p>
+          <Link to='/'> CONTACT </Link>
+        </div>
+      </div>
+
+      <div className="landingQuote landingSection">
+        <h4>
+          "The lotus flower blooms most beautifully from the deepest and thickest mud." <br /> - Buddhist Proverb
+        </h4>
+      </div>
 
     </section>
   );

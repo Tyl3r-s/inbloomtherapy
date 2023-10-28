@@ -1,6 +1,6 @@
 import React from 'react';
 import Home from './pages/home';
-import Partners from './pages/partners';
+import Team from './pages/team';
 import About from './pages/about';
 import Banner from './pages/components/banner';
 import Promo from './pages/components/promo';
@@ -22,7 +22,7 @@ export default function App(props) {
     createRoutesFromElements(
       <Route path="/" element={<Root />}>
         <Route index element={<Home />} />
-        <Route path='/partners' element={<Partners />} />
+        <Route path='/partners' element={<Team />} />
         <Route path='/about' element={<About />} />
       </Route>
     )

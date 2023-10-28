@@ -7,7 +7,7 @@ export default function footer() {
                 <p>58 Rossland Rd W, Unit 205</p>
                 <p>Oshawa ON L1G 2V5</p>
                 <p>madison@inbloomtherapy.ca</p>
-                <p>(905)626-1741</p>
+                <p>(905) 626-1741</p>
             </div>
             <div className="contact-links">
                 <a>LinkedIn</a>

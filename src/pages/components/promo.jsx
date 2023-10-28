@@ -4,7 +4,7 @@ import '../styles/promo.css';
 export default function promo() {
     return (
         <div className="promo">
-            <p className="promoText">For a free 15 minute consultation, click <a href=''>here!</a></p>
+            <p className="promoText">Book a complimentary consultation <a href=''>here!</a></p>
         </div>
     )
 }

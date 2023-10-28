@@ -6,11 +6,15 @@ export default function Home() {
   return (
     <section className="about-section general">
 
-        <img src={portrait} alt="" className="me" />
+      <img src={portrait} alt="" className="me" />
 
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, assumenda. Labore alias reiciendis tempora, repellat odio reprehenderit laborum. Fuga eaque nostrum recusandae, magnam magni sapiente nesciunt voluptas ullam ea atque.
-        </p>
+      <p className="aboutIntro">
+        Madison Dean • Registered Social Worker • MSW • RSW • (she, her)
+      </p>
+
+      <p className="aboutText">
+        Madison is a beacon of hope for teens and young adults, specializing in anxiety, grief, and depression. With a client-centered approach, they create a safe space for individuals to confront fears, explore emotions, and develop coping strategies. Through empathy and active listening, Madison fosters self-confidence and self-awareness, guiding transformative journeys towards mental and emotional well-being. They offer not just therapy but compassionate support, shaping a future where young individuals face challenges with courage and resilience, knowing they are never alone in their healing journey.
+      </p>
 
     </section>
   );
