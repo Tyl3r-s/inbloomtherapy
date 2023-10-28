@@ -45,6 +45,10 @@
     font-family: 'Sunflower', sans-serif;
 }
 
+.welcomeText p {
+    padding: 10px;
+}
+
 .booking {
     background-image: url('../../assets/anna-sullivan-ARrM9jUl780-unsplash.jpg');
     background-size: cover;

@@ -22,6 +22,8 @@
 }
 
 .bannerTitle {
+    padding: 10px;
+    text-align: center;
     font-size: 30px;
     font-family: 'Sunflower', sans-serif;
 }

@@ -25,4 +25,9 @@
 
 .aboutText {
     width: 80%;
+    margin-bottom: 8vh;
+}
+
+.verified {
+    width: 200px;
 }
