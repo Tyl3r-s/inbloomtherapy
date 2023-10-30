@@ -17,7 +17,7 @@ export default function Home() {
         Registered Social Worker
         <br/>
         <br/>
-        <img src={Verified} className="verified"/>
+        <img src={Verified} alt="" className="verified"/>
       </p>
 
       
