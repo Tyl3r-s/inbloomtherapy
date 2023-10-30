@@ -9,7 +9,7 @@ export default function Home() {
 
       <div className="welcomeText landingSection">
         <p>
-          Where Seeds of Self-Compassion Blossom into Beautiful Souls.
+          IN PERSON & VIRTUAL THERAPY FOR TEENS AND YOUNG ADULTS
         </p>
       </div>
       <div className="booking landingSection">

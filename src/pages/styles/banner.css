@@ -1,14 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Sunflower:wght@300&family=Zeyada&display=swap');
 
 .banner {
-    height: 70vh;
+    height: 45vh;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    background-image: url('../../assets/tomoko-uji-kxvn1ogpTtE-unsplash.jpg');
+    background-image: url('../../assets/thumbnail_IMG_0422.jpg');
     background-size: cover;
-    background-position: center;
+    background-position: left;
     color: rgb(21, 97, 97);
+    border-bottom: 1px rgb(0, 0, 0) solid;
 }
 
 .bannerMenu {
@@ -18,10 +19,15 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding: 3vh 1vw 0 1vw;
+        background-color: rgba(188, 244, 241, 0.901);
+    padding: 5px 5px 9px 5px;
+    margin-top: 2vh;
 }
 
 .bannerTitle {
+    position: absolute;
+    margin-top: 32vh;
+    margin-left: 35vw;
     padding: 10px;
     text-align: center;
     font-size: 30px;
@@ -35,6 +41,7 @@
     width: 160px;
     font-size: 40px;
     color: rgb(21, 97, 97);
+
 }
 
 .logoWords {
@@ -53,10 +60,21 @@
 .banner a {
     color: rgb(21, 97, 97);
     text-decoration: none;
+    padding: 10px;
+}
+
+.bookingBtn {
+    border: 2px rgb(164, 161, 161) solid;
+}
+
+.bookingBtn:hover {
+    color: white;
 }
 
 a:hover {
-    color: gray;
+    background-color: rgba(153, 153, 153, 0.689);
+    color: rgb(255, 255, 255);
+    transition: 0.1s ease;
 }
 
 .learnMore a {

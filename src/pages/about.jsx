@@ -10,21 +10,21 @@ export default function Home() {
       <img src={portrait} alt="" className="me" />
 
       <p className="aboutIntro">
-        Madison Dean (she, her) 
-        <br/>
-        Masters of Social Work
-        <br/>
+        <h2>Madison Dean (she/her) </h2>
+        <br />
+        Master of Social Work
+        <br />
         Registered Social Worker
-        <br/>
-        <br/>
-        <img src={Verified} alt="" className="verified"/>
+        <br />
+        <br />
+        <img src={Verified} alt="" className="verified" />
       </p>
 
-      
+
 
 
       <p className="aboutText">
-        Madison is a beacon of hope for teens and young adults, specializing in anxiety, grief, and depression. With a client-centered approach, they create a safe space for individuals to confront fears, explore emotions, and develop coping strategies. Through empathy and active listening, Madison fosters self-confidence and self-awareness, guiding transformative journeys towards mental and emotional well-being. They offer not just therapy but compassionate support, shaping a future where young individuals face challenges with courage and resilience, knowing they are never alone in their healing journey.
+        Specializing in anxiety, grief, and depression, I strive to act as a beacon of hope for teens and young adults. My client-centered approach allows me to create a safe space for individuals to confront their fears, explore their emotions, and develop coping strategies. Through empathy and active listening, I foster self-confidence and self-awareness, guiding transformative journeys towards mental and emotional well-being. I don't just offer therapy; I provide compassionate support, shaping a future where young individuals can face their challenges with courage and resilience, knowing they are never alone in their healing journey.
       </p>
 
     </section>

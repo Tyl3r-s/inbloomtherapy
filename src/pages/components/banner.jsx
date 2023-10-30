@@ -17,11 +17,13 @@ export default function banner() {
             </div>
             <Link to='/'> Home </Link>
             <Link to='/about'> About </Link>
-            <Link to='/partners'> Team </Link>
+            <Link to='/services'> Services </Link>
+            <Link to='/partners'> Partners </Link>
             <a href="mailto: madison@inbloomtherapy.ca"> Contact </a>
+            <Link to ='/booking' className="bookingBtn">BOOK NOW</Link>
             </div>
             <div className="bannerTitle">
-                <p>VIRTUAL AND IN PERSON THERAPY</p>
+                <p>An evidence based, empathetic approach to growth & healing</p>
             </div>
         </div>
     )

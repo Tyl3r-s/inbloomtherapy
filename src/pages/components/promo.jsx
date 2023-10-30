@@ -4,7 +4,7 @@ import '../styles/promo.css';
 export default function promo() {
     return (
         <div className="promo">
-            <p className="promoText">Book a complimentary consultation <a href='http://localhost:3000/inbloomtherapygi'>here!</a></p>
+            <p className="promoText">BOOK A COMPLIMENTARY CONSULTATION <a href='http://localhost:3000/inbloomtherapygi'>HERE!</a></p>
         </div>
     )
 }

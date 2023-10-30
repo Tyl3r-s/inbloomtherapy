@@ -2,13 +2,15 @@
     display: flex;
     justify-content: center;
     width: 100vw;
-    height: 3vh;
+    height: 2.5vh;
+    border-bottom: 1px black solid;
 }
 
 .promoText {
     margin: 0;
-    font-size: 13px;
+    font-size: 15px;
     text-align: center;
+    letter-spacing: 3px;
 }
 
 .promoText a {
@@ -16,5 +18,7 @@
 }
 
 .promoText a:hover {
-    color: teal;
+    color: white;
+    background-color: rgb(78, 176, 155);
+    padding: 3px;
 }
