@@ -19,7 +19,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-        background-color: rgba(188, 244, 241, 0.901);
+    background-color: rgba(188, 244, 241, 0.901);
     padding: 5px 5px 9px 5px;
     margin-top: 2vh;
 }

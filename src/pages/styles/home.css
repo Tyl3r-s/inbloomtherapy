@@ -10,7 +10,7 @@
 }
 
 .landingSection {
-    height: 60vh;
+    height: 70vh;
     width: 100%;
     font-family: 'Sunflower', sans-serif;
     font-weight: 300;
@@ -50,17 +50,40 @@
 }
 
 .booking {
-    background-color: rgba(93, 194, 153, 0.63);
+    background:
+        linear-gradient(rgba(255, 255, 255, 0.603),
+            rgba(255, 255, 255, 0.217)),
+            url('../../assets//roman-kraft-0EVKn3-5JSU-unsplash.jpg');
     background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
 }
 
-.booking a {
-    text-decoration: none;
-    color: black;
-    font-size: 20px;
-    background-color: white;
-    padding: 15px;
-    opacity: 0.8;
+.booking h1 {
+    width: 100vw;
+    text-align: center;
+    font-size: 70px;
+    color: rgb(21, 97, 97)
+}
+
+.booking div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 15vw;
+    height: 15vw;
+    margin: 25px;
+    padding: 10px;
+    background-color: rgba(59, 59, 59, 0.468);
+    color: white;
+}
+
+.booking div h3 {
+    height: 30px;
 }
 
 .learnMore div {

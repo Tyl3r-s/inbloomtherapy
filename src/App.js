@@ -5,45 +5,25 @@ import About from './pages/about';
 import Banner from './pages/components/banner';
 import Promo from './pages/components/promo';
 import Footer from './pages/components/footer';
+import Services from './pages/services';
 import './App.css';
 import './pages/styles/general.css';
-import {
-  createBrowserRouter,
-  createRoutesFromElements,
-  Route,
-  Outlet,
-  RouterProvider
-} from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes, BrowserRouter } from 'react-router-dom';
 
 
-export default function App(props) {
 
-  const router = createBrowserRouter(
-    createRoutesFromElements(
-      <Route path="/" element={<Root />}>
-        <Route index element={<Home />} />
-        <Route path='/partners' element={<Team />} />
-        <Route path='/about' element={<About />} />
-      </Route>
-    )
-  );
-
+export default function App() {
   return (
-    <div>
-      <RouterProvider router={router} />
-    </div>
-  );
-}
-
-const Root = () => {
-  return (
-    <>
-      <Promo />
-      <Banner />
-        <div>
-          <Outlet />
-        </div>
-      <Footer />
-    </>
+    <BrowserRouter>
+    <Promo />
+    <Banner />
+    <Routes>
+      <Route path='/' element={<Home />}/>
+      <Route path='/about' element={<About />}/>
+      <Route path='/partners' element={<Team />}/>
+      <Route path='/services' element={<Services />}/>
+    </Routes>
+    <Footer />
+    </BrowserRouter>
   )
 }

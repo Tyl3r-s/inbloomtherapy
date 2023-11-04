@@ -12,8 +12,37 @@ export default function Home() {
           IN PERSON & VIRTUAL THERAPY FOR TEENS AND YOUNG ADULTS
         </p>
       </div>
+
       <div className="booking landingSection">
-        <Link to='/'> book a complimentary consultation </Link>
+      
+          <h1>
+            How can I help?
+          </h1>
+        
+        <div className="anxietyDepression ">
+          <h3>Anxiety & Depression</h3>
+          <p>
+          I work with individuals experiencing social anxiety, stress, depression, obsessive thoughts or burn-out. 
+          </p>
+        </div>
+        <div className="depression">
+          <h3>Trauma</h3>
+          <p>
+          Psychotherapy is beneficial for individuals who have experienced trauma, including sexual abuse, domestic abuse, loss and grief. 
+          </p>
+        </div>
+        <div className="Grief">
+          <h3>Grief</h3>
+          <p>
+            Nothing fucks you up more than when someone dies.
+          </p>
+        </div>
+        <div className="lifeChanges">
+          <h3>Life Changes</h3>
+          <p>
+          Transitions in school, career and future planning can sometimes be challenging to our mental health. I can help if this is your experience.  
+          </p>
+        </div>
       </div>
 
       <div className="learnMore landingSection">
