@@ -12,7 +12,6 @@
 }
 
 .landingSection {
-    height: 70vh;
     width: 100%;
     font-family: 'Sunflower', sans-serif;
     font-weight: 300;
@@ -23,12 +22,11 @@
 }
 
 .landingQuote {
-    background:
-        linear-gradient(rgba(255, 255, 255, 0.835),
-            rgba(255, 255, 255, 0.515)),
-            url('../../assets/ama-journey-VYnfRLhV09Q-unsplash.jpg');
-    background-size: cover;
-    background-position: center;
+    background-image: url(../../assets/thumbnail_IMG_0409.jpg);
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: left;
+    height: 50vh;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -43,6 +41,12 @@
 }
 
 .welcomeText {
+    height: 70vh;
+}
+
+.welcomeText {
+    width: 80vw;
+    line-height: 30px;
     font-size: 20px;
     font-family: 'Sunflower', sans-serif;
 }
@@ -53,14 +57,15 @@
 
 .booking {
     background:
-        linear-gradient(rgba(255, 255, 255, 0.603),
-            rgba(255, 255, 255, 0.217)),
-            url('../../assets//roman-kraft-0EVKn3-5JSU-unsplash.jpg');
+        linear-gradient(rgba(165, 165, 165, 0.594),
+        rgba(177, 177, 177, 0.61)),
+        url('../../assets/adrien-king-XzBluXxBoyQ-unsplash.jpg');
     background-size: cover;
     background-position: center;
     display: flex;
     flex-wrap: wrap;
     width: 100%;
+    height: 70vh;
     justify-content: center;
     align-items: center;
 }
@@ -76,16 +81,13 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    width: 15vw;
-    height: 15vw;
-    margin: 25px;
-    padding: 10px;
+    margin: 2vh 0 2vh 0;
     background-color: rgba(59, 59, 59, 0.468);
     color: white;
 }
 
 .booking div h3 {
-    height: 30px;
+    height: 20px;
 }
 
 .learnMore div {
@@ -95,4 +97,58 @@
     flex-wrap: wrap;
     justify-content: center;
     text-align: center;
+}
+
+.bookNow {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 50vh;
+}
+
+.bookNow p {
+    text-align: center;
+    width: 90vw;
+}
+
+.bookNowContainer {
+    margin: 5vh;
+}
+
+@media screen and (max-width: 48em) {
+
+    .learnMore {
+        height: 100%;
+    }
+
+    .learnMore div {
+        width: 80vw;
+    }
+
+    .learnMoreContainer {
+        padding: 5vh 0 10vh 0;
+    }
+
+    .welcomeText {
+        height: 100%;
+    }
+
+    .booking {
+        height: 100%;
+    }
+
+    .landingSection h1 {
+        font-size: 40px;
+    }
+
+    .landingQuote {
+        background-image: url(../../assets/thumbnail_IMG_0409.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: left;
+        height: 40vh;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
 }

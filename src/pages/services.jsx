@@ -1,4 +1,5 @@
 import './styles/services.css';
+import { Link } from 'react-router-dom';
 
 export default function services() {
     return (
@@ -13,6 +14,9 @@ export default function services() {
                     <br />
                     Cost: Free
                 </p>
+                <Link>
+                Book Now
+                </Link>
             </div>
 
             <div className="session">
@@ -24,6 +28,9 @@ export default function services() {
                     <br />
                     Cost: $160
                 </p>
+                <Link>
+                Book Now
+                </Link>
             </div>
 
         </div>

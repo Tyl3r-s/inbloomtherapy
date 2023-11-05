@@ -4,7 +4,6 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    height: 50vh;
     align-items: center;
 }
 
@@ -12,4 +11,11 @@
     width: 30vw;
     margin: 2vw;
     text-align: center;
+}
+
+@media screen and (max-width: 48em) {
+    .services div {
+        width: 80vw;
+        margin: 5vh;
+    }
 }

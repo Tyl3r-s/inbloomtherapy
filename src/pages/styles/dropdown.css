@@ -59,3 +59,30 @@ a:hover {
 .learnMore a:hover {
     color: white;
 }
+
+@media screen and (max-width: 48em) {
+    .logoTitle {
+        font-family: 'Sunflower', sans-serif;
+        letter-spacing: 1px;
+        margin-top: 3px;
+        width: 124px;
+        font-size: 30px;
+        color: rgb(21, 97, 97);
+        margin-left: 1vw;
+    }
+    
+    .logoWords {
+        margin: 13px 0 0 5px;
+        letter-spacing: 1px;
+        font-family: 'Cedarville Cursive';
+        font-size: 14px;
+        width: 180px;
+        color: rgb(21, 97, 97);
+    }
+
+    .bannerMenu a {
+        color: rgb(21, 97, 97);
+        text-decoration: none;
+        display: none;
+    }
+}

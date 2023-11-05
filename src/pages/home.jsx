@@ -8,27 +8,29 @@ export default function Home() {
     <section className="landing general">
 
       <div className="welcomeText landingSection">
+
         <p>
-          IN PERSON & VIRTUAL THERAPY FOR TEENS AND YOUNG ADULTS
+          <h3>A message from Madison...</h3>
+          At In Bloom Therapy, my mission is to create a nurturing and empowering space for you to foster your mental and emotional well-being. I am dedicated to providing high-quality therapy services tailored to the unique needs of each individual, with a focus on empathy, understanding, and respect. My goal is to support you in navigating life's challenges, empowering you to overcome obstacles, build resilience, and achieve your full potential.
         </p>
       </div>
 
       <div className="booking landingSection">
-      
-          <h1>
-            How can I help?
-          </h1>
-        
+
+        <h1>
+          How can I help?
+        </h1>
+
         <div className="anxietyDepression ">
           <h3>Anxiety & Depression</h3>
           <p>
-          I work with individuals experiencing social anxiety, stress, depression, obsessive thoughts or burn-out. 
+            I work with individuals experiencing social anxiety, stress, depression, obsessive thoughts or burn-out.
           </p>
         </div>
         <div className="depression">
           <h3>Trauma</h3>
           <p>
-          Psychotherapy is beneficial for individuals who have experienced trauma, including sexual abuse, domestic abuse, loss and grief. 
+            Psychotherapy is beneficial for individuals who have experienced trauma, including sexual abuse, domestic abuse, loss and grief.
           </p>
         </div>
         <div className="Grief">
@@ -40,28 +42,25 @@ export default function Home() {
         <div className="lifeChanges">
           <h3>Life Changes</h3>
           <p>
-          Transitions in school, career and future planning can sometimes be challenging to our mental health. I can help if this is your experience.  
+            Transitions in school, career and future planning can sometimes be challenging to our mental health. I can help if this is your experience.
           </p>
         </div>
       </div>
 
-      <div className="learnMore landingSection">
-        <div className="readMore">
-          <p>Are impacted by an anxiety, depression, or grief? I am here to assist you.</p>
-          <Link to='/'> LEARN ABOUT ME </Link>
+      <div className="bookNow">
+
+        <div className="bookNowContainer">
+          <p>Start your therapy journey by booking online with me now.
+            <br />
+            <br />
+            I offer free 15 minute video sessions so we can get to know each-other.
+            <br />
+            <br />
+            If you are ready to jump right in you can also book your first full session.
+          </p>
         </div>
-        <div className="createBooking">
-          <p>I want to get to know you. Book a consultation, or create a virtual or in person appointment.</p>
-          <Link to='/'> CREATE BOOKING </Link>
-        </div>
-        <div className="commonQuestions">
-          <p>I believe wellness ultimately requires attention to our entire body</p>
-          <Link to='/'> SEE PARTNERS </Link>
-        </div>
-        <div className="seePartners">
-          <p>For any other questions or concerns, please feel absolutely free to reach out to me.</p>
-          <Link to='/'> CONTACT </Link>
-        </div>
+
+        <Link>Book Now</Link>
       </div>
 
       <div className="landingQuote landingSection">

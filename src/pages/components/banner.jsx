@@ -5,7 +5,7 @@ export default function banner() {
     return (
         <div className="banner">
             <div className="bannerTitle">
-                <p>An evidence based, empathetic approach to growth & healing</p>
+                <p>IN PERSON AND VIRTUAL THERAPY</p>
             </div>
         </div>
     )

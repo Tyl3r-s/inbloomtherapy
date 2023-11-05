@@ -22,3 +22,12 @@
     background-color: rgb(78, 176, 155);
     padding: 3px;
 }
+
+@media screen and (max-width: 48em) {
+    .promoText {
+        margin-top: 2px;
+        font-size: 10px;
+        text-align: center;
+        letter-spacing: 2px;
+    }
+}
