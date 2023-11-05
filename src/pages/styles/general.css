@@ -2,6 +2,15 @@
     letter-spacing: 1px;
 }
 
+body, html {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    overflow: auto;
+    font-family: 'Archivo', sans-serif ;
+  }
+
 .general {
     background:
     linear-gradient( rgba(250, 250, 250, 1),
