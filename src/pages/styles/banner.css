@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Sunflower:wght@300&family=Zeyada&display=swap');
 
 .banner {
+    position: absolute;
+    top: 2.5vh;
     height: 45vh;
     width: 100%;
     display: flex;
@@ -10,6 +12,7 @@
     background-size: cover;
     background-position: left;
     color: rgb(21, 97, 97);
+    border-top: 1px black solid;
     border-bottom: 1px rgb(0, 0, 0) solid;
 }
 

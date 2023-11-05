@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Sunflower:wght@300&family=Zeyada&display=swap');
 
 .landing {
+    margin-top: 34.6vh;
+    position: relative;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;

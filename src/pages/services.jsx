@@ -1,3 +1,5 @@
+import './styles/services.css';
+
 export default function services() {
     return (
         <div className="services">
