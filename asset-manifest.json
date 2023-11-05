@@ -1,19 +1,18 @@
 {
   "files": {
-    "main.css": "/inbloomtherapy/static/css/main.48d1655d.css",
-    "main.js": "/inbloomtherapy/static/js/main.5c226887.js",
-    "static/media/roman-kraft-0EVKn3-5JSU-unsplash.jpg": "/inbloomtherapy/static/media/roman-kraft-0EVKn3-5JSU-unsplash.99df521f4cc80509be23.jpg",
+    "main.css": "/inbloomtherapy/static/css/main.9870c086.css",
+    "main.js": "/inbloomtherapy/static/js/main.e4607825.js",
     "static/media/ama-journey-VYnfRLhV09Q-unsplash.jpg": "/inbloomtherapy/static/media/ama-journey-VYnfRLhV09Q-unsplash.cf71228c7f8f6213289c.jpg",
     "static/media/c96a6cbd-3100-4c58-bf14-d041a37a9700.jpg": "/inbloomtherapy/static/media/c96a6cbd-3100-4c58-bf14-d041a37a9700.e142de45987efc85bb07.jpg",
     "static/media/thumbnail_IMG_0422.jpg": "/inbloomtherapy/static/media/thumbnail_IMG_0422.215eb7ff1532f7badaeb.jpg",
     "static/media/HHAshley-17.jpg": "/inbloomtherapy/static/media/HHAshley-17.3bed1a050992ac7cc792.jpg",
     "static/media/psychology-today-verified-logo-transparent-hd-png-download.png": "/inbloomtherapy/static/media/psychology-today-verified-logo-transparent-hd-png-download.659f5619f3818fc0d05b.png",
     "index.html": "/inbloomtherapy/index.html",
-    "main.48d1655d.css.map": "/inbloomtherapy/static/css/main.48d1655d.css.map",
-    "main.5c226887.js.map": "/inbloomtherapy/static/js/main.5c226887.js.map"
+    "main.9870c086.css.map": "/inbloomtherapy/static/css/main.9870c086.css.map",
+    "main.e4607825.js.map": "/inbloomtherapy/static/js/main.e4607825.js.map"
   },
   "entrypoints": [
-    "static/css/main.48d1655d.css",
-    "static/js/main.5c226887.js"
+    "static/css/main.9870c086.css",
+    "static/js/main.e4607825.js"
   ]
 }
