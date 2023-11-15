@@ -33,7 +33,7 @@
 }
 
 .landingQuote h4 {
-    background-color: white;
+    background-color: rgba(188, 244, 241, 0.995);
     padding: 15px;
     font-weight: 300;
     font-size: 3vh;
@@ -45,7 +45,7 @@
 }
 
 .welcomeText {
-    width: 80vw;
+    width: 80%;
     line-height: 30px;
     font-size: 20px;
     font-family: 'Sunflower', sans-serif;
@@ -57,37 +57,61 @@
 
 .booking {
     background:
-        linear-gradient(rgba(165, 165, 165, 0.594),
-        rgba(177, 177, 177, 0.61)),
+        linear-gradient(rgba(126, 126, 126, 0.705),
+        rgba(83, 82, 82, 0.758)),
         url('../../assets/adrien-king-XzBluXxBoyQ-unsplash.jpg');
     background-size: cover;
     background-position: center;
     display: flex;
     flex-wrap: wrap;
     width: 100%;
-    height: 70vh;
+    height: 100%;
     justify-content: center;
     align-items: center;
 }
 
 .booking h1 {
-    width: 100vw;
+    width: 100%;
     text-align: center;
     font-size: 70px;
-    color: rgb(21, 97, 97)
+    color: white;
+    margin-top: 10vh;
 }
 
-.booking div {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin: 2vh 0 2vh 0;
-    background-color: rgba(59, 59, 59, 0.468);
+.booking p {
     color: white;
 }
 
-.booking div h3 {
-    height: 20px;
+.helpContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+
+.help {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 80vw;
+    color: white;
+    align-items: center;
+    margin-bottom: 10vh;
+}
+
+.help p {
+    text-align: center;
+    margin: 10px;
+}
+
+.help h3 {
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+}
+
+.helpContainer {
+    margin: 5vh 0 0 0;
 }
 
 .learnMore div {
@@ -103,16 +127,18 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    height: 50vh;
+    height: 100%;
+    width: 100%;
 }
 
 .bookNow p {
     text-align: center;
-    width: 90vw;
+    width: 90%;
 }
 
 .bookNowContainer {
     margin: 5vh;
+    width: 100%;
 }
 
 @media screen and (max-width: 48em) {
@@ -133,6 +159,10 @@
         height: 100%;
     }
 
+    .welcomeText p {
+        margin: 10vh 0 15vh 0;
+    }
+
     .booking {
         height: 100%;
     }
@@ -150,5 +180,16 @@
         width: 100%;
         display: flex;
         justify-content: center;
+    }
+}
+
+@media screen and (min-width: 800px) {
+
+    .helpContainer {
+        justify-content: space-between;
+    }
+
+    .help {
+        width: 20vw;
     }
 }

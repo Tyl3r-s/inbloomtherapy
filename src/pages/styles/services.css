@@ -8,9 +8,13 @@
 }
 
 .services div {
-    width: 30vw;
+    width: 100%;
     margin: 2vw;
-    text-align: center;
+}
+
+.teenSession {
+    text-align: right;
+    
 }
 
 @media screen and (max-width: 48em) {

@@ -17,7 +17,6 @@
     font-family: 'Sunflower', sans-serif;
     letter-spacing: 1px;
     margin: 0;
-    width: 160px;
     font-size: 40px;
     color: rgb(21, 97, 97);
     margin-left: 1vw;
@@ -28,7 +27,6 @@
     letter-spacing: 1px;
     font-family: 'Cedarville Cursive';
     font-size: 18px;
-    width: 180px;
     color: rgb(21, 97, 97);
 }
 
@@ -65,7 +63,6 @@ a:hover {
         font-family: 'Sunflower', sans-serif;
         letter-spacing: 1px;
         margin-top: 3px;
-        width: 124px;
         font-size: 30px;
         color: rgb(21, 97, 97);
         margin-left: 1vw;
@@ -76,7 +73,6 @@ a:hover {
         letter-spacing: 1px;
         font-family: 'Cedarville Cursive';
         font-size: 14px;
-        width: 180px;
         color: rgb(21, 97, 97);
     }
 

@@ -15,7 +15,7 @@ export default function dropdown() {
             <Link to='/inbloomtherapy'> Home </Link>
             <Link to='/about'> About </Link>
             <Link to='/services'> Services </Link>
-            <Link to='/partners'> Partners </Link>
+            {/* <Link to='/partners'> Partners </Link> */}
             <Link to='/location'> Contact </Link>
             <Link to='/booking' className="bookingBtn">BOOK NOW</Link>
         </div>

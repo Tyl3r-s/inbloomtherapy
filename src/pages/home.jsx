@@ -11,8 +11,7 @@ export default function Home() {
 
         <p>
           <h3>A message from Madison...</h3>
-          At In Bloom Therapy, my mission is to create a nurturing and empowering space for you to foster your mental and emotional well-being. I am dedicated to providing high-quality therapy services tailored to the unique needs of each individual, with a focus on empathy, understanding, and respect. My goal is to support you in navigating life's challenges, empowering you to overcome obstacles, build resilience, and achieve your full potential.
-        </p>
+          At In Bloom Therapy, my mission is to create a warm and empowering space for you to foster your mental and emotional wellbeing. I am passionate about providing high-quality therapeutic services that are specifically tailored to meet the unique needs and hopes of each individual, with a focus on compassion, authenticity, and understanding. My hope is to support you in navigating life’s challenges and rediscovering how resilient you really are.        </p>
       </div>
 
       <div className="booking landingSection">
@@ -20,30 +19,33 @@ export default function Home() {
         <h1>
           How can I help?
         </h1>
+        <br />
+        <p>
+          I specialize in working with teens, young adults, and women
+        </p>
 
-        <div className="anxietyDepression ">
-          <h3>Anxiety & Depression</h3>
-          <p>
-            I work with individuals experiencing social anxiety, stress, depression, obsessive thoughts or burn-out.
-          </p>
-        </div>
-        <div className="depression">
-          <h3>Trauma</h3>
-          <p>
-            Psychotherapy is beneficial for individuals who have experienced trauma, including sexual abuse, domestic abuse, loss and grief.
-          </p>
-        </div>
-        <div className="Grief">
-          <h3>Grief</h3>
-          <p>
-            Nothing fucks you up more than when someone dies.
-          </p>
-        </div>
-        <div className="lifeChanges">
-          <h3>Life Changes</h3>
-          <p>
-            Transitions in school, career and future planning can sometimes be challenging to our mental health. I can help if this is your experience.
-          </p>
+        <div className="helpContainer">
+
+          <div className="anxietyDepression help">
+            <h3>Anxiety & Depression</h3>
+            <p>
+              I support individuals struggling with social anxiety, stress, lack of motivation, obsessive thoughts, and/or burn-out.            </p>
+          </div>
+          <div className="depression help">
+            <h3>Trauma</h3>
+            <p>
+              Trauma changes us, our relationships, and how we see the world. I support individuals in processing and working through various traumatic life events.            </p>
+          </div>
+          <div className="Grief help">
+            <h3>Grief</h3>
+            <p>
+              I understand first-hand how debilitating, isolating, and traumatic the loss of a loved one can be. I can support you in navigating this painful time.            </p>
+          </div>
+          <div className="lifeChanges help">
+            <h3>Life Changes</h3>
+            <p>
+              Significant changes in our relationships, family dynamics, schooling, or jobs can be exhausting. Allow me to help if you are struggling with a challenging transition.            </p>
+          </div>
         </div>
       </div>
 
