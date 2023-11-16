@@ -68,10 +68,9 @@ a:hover {
     opacity: 0;
 }
 
-.responsive_nav {
+.navItems {
     width: 50vw;
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-around;
 }
 
@@ -118,8 +117,6 @@ a:hover {
     .responsive_nav {
         width: 30vw;
         transform: none;
-        justify-content: center;
-        text-align: center;
         padding: 20px;
     }
 

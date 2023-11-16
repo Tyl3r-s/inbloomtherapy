@@ -20,7 +20,7 @@ export default function Navbar() {
                     <p className="logoWords">therapy and wellness</p>
                 </div>
             </div>
-            <nav ref={navRef}>
+            <nav className="navItems" ref={navRef}>
                 <Link to='/inbloomtherapy'> Home </Link>
                 <Link to='/about'> About </Link>
                 <Link to='/services'> Services </Link>
