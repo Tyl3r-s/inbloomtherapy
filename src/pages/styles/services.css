@@ -9,12 +9,17 @@
 
 .services div {
     width: 100%;
-    margin: 2vw;
+    padding: 5vw;
 }
 
 .teenSession {
     text-align: right;
-    
+    color: white;
+    background-color: rgba(124, 196, 192, 0.947);
+}
+
+.teenSession p {
+    text-align: left;
 }
 
 @media screen and (max-width: 48em) {

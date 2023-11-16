@@ -75,7 +75,7 @@
     text-align: center;
     font-size: 70px;
     color: white;
-    margin-top: 10vh;
+    margin: 7vh 0 2vh 0;
 }
 
 .booking p {
@@ -186,7 +186,7 @@
 @media screen and (min-width: 800px) {
 
     .helpContainer {
-        justify-content: space-between;
+        justify-content: space-around;
     }
 
     .help {

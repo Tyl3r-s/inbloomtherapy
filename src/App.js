@@ -7,18 +7,21 @@ import Promo from './pages/components/promo';
 import Footer from './pages/components/footer';
 import Services from './pages/services';
 import Location from './pages/contaxt';
-import Dropdown from './pages/components/dropdown';
+import Navbar from './pages/components/navBar';
 import './App.css';
 import './pages/styles/general.css';
-import { BrowserRouter as Router, Route, Routes, BrowserRouter } from 'react-router-dom';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { faBars, faXmark } from '@fortawesome/free-solid-svg-icons'
 
+library.add(faBars, faXmark)
 
 
 export default function App() {
   return (
     <BrowserRouter>
     <Promo />
-    <Dropdown />
+    <Navbar />
     <Banner />
     <Routes>
       <Route path='/inbloomtherapy' element={<Home />}/>

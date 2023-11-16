@@ -1,7 +1,9 @@
-import '../styles/dropdown.css';
+import React, { useState } from 'react';
+import '../styles/navbar.css';
 import { Link } from 'react-router-dom';
 
-export default function dropdown() {
+export default function Navbar() {
+
     return (
         <div className="bannerMenu">
             <div className="logo">
