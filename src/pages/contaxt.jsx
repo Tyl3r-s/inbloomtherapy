@@ -3,11 +3,25 @@ import './styles/contact.css';
 export default function location() {
     return (
         <div className="location general">
-            <div className="address">
-                <p>58 Rossland Rd W, Unit 205</p>
-                <p>Oshawa ON L1G 2V5</p>
-                <p>madison@inbloomtherapy.ca</p>
-                <p>905 626 1741</p>
+
+            <div className="detailContainer">
+
+                <div className="contactStatement">
+                    <p>
+                        In Bloom Therapy shares a cozy and relaxing space with <a href='https://www.havenhealthcare.ca/' target="_blank">Haven Healthcare</a>, offering you a holistic experience for your mental, physical, and emotional well-being.
+                        <br />
+                        <br />
+                        The office is located on the 2nd floor of a building in central Oshawa with ample free parking available.
+                        <br />
+                        <br />
+                        An elevator is available for those who need it. Please contact us in advance to arrange for this as we will need to meet you to operate the elevator. Please also advise of any other accessibility requirements you may have.
+                    </p>
+                </div>
+                <div className="address">
+                    <p>madison@inbloomtherapy.ca</p>
+                    <p>905 626 1741</p>
+                </div>
+
             </div>
 
             <iframe

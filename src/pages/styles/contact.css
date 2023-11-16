@@ -1,7 +1,13 @@
 @media screen and (max-width: 48em) {
     iframe {
-        width: 80vw;
+        width: 90vw;
     }
+}
+
+.contactStatement p {
+    width: 40vw;
+    margin-top: 6vh;
+    font-size: 18px;
 }
 
 .location {
@@ -18,7 +24,7 @@ iframe {
 }
 
 .address p {
-    font-size: 22px;
+    font-size: 18px;
     line-height: 50px;
 }
 
@@ -33,5 +39,9 @@ iframe {
 
     iframe {
         margin-bottom: 8vh;
+    }
+
+    .contactStatement p {
+        width: 90vw;
     }
 }
