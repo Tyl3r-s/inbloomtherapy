@@ -58,7 +58,31 @@ a:hover {
     color: white;
 }
 
+.nav-btn {
+    padding: 5px;
+    cursor: pointer;
+    background: transparent;
+    border: none; 
+    outline: none; 
+    display: none;
+    opacity: 0;
+}
+
+.responsive_nav {
+    width: 50vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
 @media screen and (max-width: 48em) {
+
+
+
+    .nav-btn {
+        display: block;
+        opacity: 1;
+    }
     .logoTitle {
         font-family: 'Sunflower', sans-serif;
         letter-spacing: 1px;
@@ -76,9 +100,37 @@ a:hover {
         color: rgb(21, 97, 97);
     }
 
-    .bannerMenu a {
-        color: rgb(21, 97, 97);
-        text-decoration: none;
-        display: none;
+    nav {        
+        position: fixed;
+        top: 0;
+        right: 0;
+        height: 50vh;
+        width: 40vw;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        background-color: rgba(255, 255, 255, 0.749);
+        transition: 0.5s ease-in-out;
+        transform: translateX(+50vh);
+    }
+
+    .responsive_nav {
+        width: 30vw;
+        transform: none;
+        justify-content: center;
+        text-align: center;
+        padding: 20px;
+    }
+
+    nav a {
+        width: 100%;
+    }
+
+    .nav-btn-close {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        font-size: 20px;
     }
 }
