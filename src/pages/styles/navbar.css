@@ -2,8 +2,7 @@
     position: sticky;
     top: 0;
     width: 100%;
-    height: 5vh;
-    align-items: center;
+    height: 6vh;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -37,11 +36,13 @@
 .bannerMenu a {
     color: rgb(21, 97, 97);
     text-decoration: none;
+    padding: 8px 10px;
+    font-size: 18px;
 }
 
 .bookingBtn {
-    border: 2px rgb(164, 161, 161) solid;
-    margin-right: 1vw;
+    border: 2px rgba(21, 97, 97, 0.582) solid;
+    align-self: center;
 }
 
 .bookingBtn:hover {
@@ -69,19 +70,21 @@ a:hover {
 }
 
 .navItems {
-    width: 50vw;
+    width: 60vw;
     display: flex;
     justify-content: space-around;
+    align-items: center;
 }
 
-@media screen and (max-width: 48em) {
-
-
+@media screen and (max-width: 925px) {
 
     .nav-btn {
         display: block;
         opacity: 1;
+        font-size: 30px;
+        color: rgb(21, 97, 97);
     }
+    
     .logoTitle {
         font-family: 'Sunflower', sans-serif;
         letter-spacing: 1px;
@@ -101,23 +104,23 @@ a:hover {
 
     nav {        
         position: fixed;
-        top: 0;
-        right: 0;
+        margin-top: 2.5vh;
+        top: 10px;
+        right: 10px;
         height: 50vh;
-        width: 40vw;
         display: flex;
         flex-wrap: wrap;
         align-items: center;
         justify-content: center;
-        background-color: rgba(255, 255, 255, 0.749);
+        background-color: rgba(188, 244, 241, 0.901);
         transition: 0.5s ease-in-out;
-        transform: translateX(+50vh);
+        transform: translateY(-100vh);
+        border-radius: 5px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     }
 
     .responsive_nav {
-        width: 30vw;
         transform: none;
-        padding: 20px;
     }
 
     nav a {
@@ -128,6 +131,13 @@ a:hover {
         position: absolute;
         top: 20px;
         right: 20px;
-        font-size: 20px;
+    }
+
+    .nav-btn-open {
+        margin-right: 2vw;
+    }
+
+    .bookingBtn {
+        width: 200px;
     }
 }

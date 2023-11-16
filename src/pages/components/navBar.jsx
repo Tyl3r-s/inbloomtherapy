@@ -21,18 +21,18 @@ export default function Navbar() {
                 </div>
             </div>
             <nav className="navItems" ref={navRef}>
-                <Link to='/inbloomtherapy'> Home </Link>
-                <Link to='/about'> About </Link>
-                <Link to='/services'> Services </Link>
+                <Link onClick={showNavBar} to='/'> Home </Link>
+                <Link onClick={showNavBar} to='/about'> About </Link>
+                <Link onClick={showNavBar} to='/services'> Services </Link>
                 {/* <Link to='/partners'> Partners </Link> */}
-                <Link to='/location'> Contact </Link>
-                <Link to='/booking' className="bookingBtn">BOOK NOW</Link>
+                <Link onClick={showNavBar} to='/location'> Contact </Link>
+                <Link onClick={showNavBar} target="_blank" to="https://inbloomtherapy.janeapp.com/#staff_member/1" className="bookingBtn">BOOK NOW</Link>
 
                 <button className="nav-btn nav-btn-close" onClick={showNavBar}>
                     <FontAwesomeIcon icon="fa-solid fa-xmark" />
                 </button>
             </nav>
-            <button className="nav-btn" onClick={showNavBar}>
+            <button className="nav-btn nav-btn-open" onClick={showNavBar}>
                 <FontAwesomeIcon icon="fa-solid fa-bars" />
             </button>
         </div>

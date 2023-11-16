@@ -10,7 +10,6 @@ export default function Home() {
       <div className="welcomeText landingSection">
 
         <p>
-          <h3>A message from Madison...</h3>
           At In Bloom Therapy, my mission is to create a warm and empowering space for you to foster your mental and emotional wellbeing. I am passionate about providing high-quality therapeutic services that are specifically tailored to meet the unique needs and hopes of each individual, with a focus on compassion, authenticity, and understanding. My hope is to support you in navigating life’s challenges and rediscovering how resilient you really are.        </p>
       </div>
 
@@ -20,8 +19,8 @@ export default function Home() {
           How can I help?
         </h1>
         <br />
-        <p>
-          I specialize in working with teens, young adults, and women
+        <p className="helpIntroduction">
+          I specialize in working with teens, young adults, and all female-identifying folks.
         </p>
 
         <div className="helpContainer">
@@ -52,17 +51,16 @@ export default function Home() {
       <div className="bookNow">
 
         <div className="bookNowContainer">
-          <p>Start your therapy journey by booking online with me now.
+          <p>Start your therapy journey by booking online with me now!
             <br />
             <br />
             I offer free 15 minute video sessions so we can get to know each-other.
             <br />
             <br />
-            If you are ready to jump right in you can also book your first full session.
+            If you are ready to jump right in you can also book your first full session!
           </p>
+          <Link target="_blank" to="https://inbloomtherapy.janeapp.com/#staff_member/1">BOOK NOW</Link>
         </div>
-
-        <Link>Book Now</Link>
       </div>
 
       <div className="landingQuote landingSection">

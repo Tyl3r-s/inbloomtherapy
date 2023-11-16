@@ -9,7 +9,7 @@
     flex-wrap: wrap;
     justify-content: space-around;
     position: relative;
-    margin-top: 34.6vh;
+    margin-top: 33.3vh;
     align-items: center;
 }
 
@@ -17,6 +17,21 @@ iframe {
  margin: 5vw 0 5vw 0;
 }
 
-.location h2 {
+.address p {
+    font-size: 22px;
+    line-height: 50px;
+}
 
+@media screen and (width < 700px) {
+    .address p {
+        font-size: 16px;
+    }
+
+    .address {
+        margin-top: 5vh;
+    }
+
+    iframe {
+        margin-bottom: 8vh;
+    }
 }

@@ -1,18 +1,22 @@
 .footer {
-    border-top: 5px solid rgb(21, 97, 97, 0.5);
+    border-top: 3px solid rgb(21, 97, 97, 0.5);
     display: flex;
     justify-content: space-around;
     align-items: center;
+    padding: 25px 0 25px 0;
 }
 
 .contact-info p {
     font-size: 15px;
+    line-height: 35px;
 }
 
 .contact-links {
     display: grid;
+    grid-gap: 30px;
 }
 
-.contact-links a {
+.brandIcons {
     margin: 1vh;
+    height: 20px;
 }

@@ -1,6 +1,6 @@
 .services {
     position: relative;
-    margin-top: 34.6vh;
+    margin-top: 33.3vh;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -10,19 +10,52 @@
 .services div {
     width: 100%;
     padding: 5vw;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin: 5vw;
+}
+
+.services a {
+    color: rgb(21, 97, 97);
+    text-decoration: none;
+    padding: 8px 10px;
+    font-size: 18px;
+    border: 2px rgba(21, 97, 97, 0.582) solid;
+}
+
+.services p {
+    font-size: 20px;
+}
+
+.introductory {
+    background-color: rgba(255, 255, 255, 0.804);
 }
 
 .teenSession {
     text-align: right;
-    color: white;
-    background-color: rgba(124, 196, 192, 0.947);
+    color: rgba(255, 255, 255, 0.916);
+    background-color: rgba(21, 97, 97, 0.676);
+}
+
+.session {
+    background-color: rgba(255, 255, 255, 0.804);
 }
 
 .teenSession p {
     text-align: left;
 }
 
-@media screen and (max-width: 48em) {
+.teenSession a {
+    color: white;
+    border: 2px rgba(184, 214, 214, 0.947) solid;
+}
+
+.btnDiv {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width: 800px) {
     .services div {
         width: 80vw;
         margin: 5vh;

@@ -13,8 +13,9 @@ import './pages/styles/general.css';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { faBars, faXmark } from '@fortawesome/free-solid-svg-icons'
+import { faLinkedin, faInstagram, faFacebook } from '@fortawesome/free-brands-svg-icons';
 
-library.add(faBars, faXmark)
+library.add(faBars, faXmark, faLinkedin, faInstagram, faFacebook)
 
 
 export default function App() {
@@ -24,7 +25,7 @@ export default function App() {
     <Navbar />
     <Banner />
     <Routes>
-      <Route path='/inbloomtherapy' element={<Home />}/>
+      <Route path='/' element={<Home />}/>
       <Route path='/about' element={<About />}/>
       <Route path='/partners' element={<Team />}/>
       <Route path='/location' element={<Location />}/>

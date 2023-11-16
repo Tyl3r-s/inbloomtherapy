@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 export default function services() {
     return (
-        <div className="services">
+        <div className="services general">
 
             <div className="introductory">
                 <h1>15 Minute Consultation</h1>
@@ -16,10 +16,12 @@ export default function services() {
                     <br />
                     Your comfort and the effectiveness of our therapeutic journey together are my top priorities.
                 </p>
-                <h4>Cost: $160</h4>
-                <Link>
-                    Book Now
-                </Link>
+                <h4>Cost: Free</h4>
+                <section className="btnDiv">
+                    <Link to="https://inbloomtherapy.janeapp.com/#/staff_member/1/treatment/2" target="_blank">
+                        Create Appointment
+                    </Link>
+                </section>
             </div>
 
             <div className="teenSession">
@@ -33,27 +35,31 @@ export default function services() {
                     <br />
                     My approach centers on building trust and rapport with your teen, offering an environment where they can feel seen, heard, and validated. If you believe I could be the right fit to support your teen, I invite you to schedule a 15-minute consultation. This brief meeting will allow us to connect and explore how I can best assist your teen during this crucial phase of their life journey.
                 </p>
-                <h4>Cost: $160</h4>
-                <Link>
-                    Book Now
-                </Link>
+                <h4>Cost: $150</h4>
+                <section className="btnDiv">
+                    <Link to="https://inbloomtherapy.janeapp.com/#/staff_member/1" target="_blank">
+                        Create Appointment
+                    </Link>
+                </section>
             </div>
 
             <div className="session">
                 <h1>Individual Therapy</h1>
                 <p>
                     Taking that first step towards therapy isn't always easy, and I'm truly glad you're here. My aim is to craft a space where you can find relief—a sanctuary where together, we can lighten the burdens you carry. Whether it's anxiety, depression, traumatic events, the loss of a loved one, or navigating significant life changes, you don't have to face these challenges alone.
-                    <br/>
-                    <br/>
+                    <br />
+                    <br />
                     Creating an environment that's warm, deeply connected, honest, and above all, safe, is my passion. My aspiration is that through our collaboration, you'll feel empowered and a bit lighter. Individual therapy is dedicated time for you, tailored to honour your unique needs and goals.
-                    <br/>
-                    <br/>
+                    <br />
+                    <br />
                     To gain more insight into my therapeutic approach, please explore my "about" page. You may also schedule a complimentary 15-minute consultation so that we may chat and get to know each other.
                 </p>
-                <h4>Cost: $160</h4>
-                <Link>
-                    Book Now
-                </Link>
+                <h4>Cost: $150</h4>
+                <section className="btnDiv">
+                    <Link to="https://inbloomtherapy.janeapp.com/#/staff_member/1" target="_blank">
+                        Create Appointment
+                    </Link>
+                </section>
             </div>
 
         </div>

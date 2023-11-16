@@ -1,10 +1,11 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import '../styles/promo.css';
 
 export default function promo() {
     return (
         <div className="promo">
-            <p className="promoText">BOOK A COMPLIMENTARY CONSULTATION <a href='http://localhost:3000/inbloomtherapygi'>HERE!</a></p>
+            <p className="promoText">BOOK A COMPLIMENTARY CONSULTATION <Link to="https://inbloomtherapy.janeapp.com/#/staff_member/1/treatment/2" target="_blank">HERE!</Link></p>
         </div>
     )
 }

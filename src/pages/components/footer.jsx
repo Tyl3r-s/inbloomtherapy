@@ -1,4 +1,5 @@
 import '../styles/footer.css'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 export default function footer() {
     return (
@@ -10,9 +11,9 @@ export default function footer() {
                 <p>(905) 626-1741</p>
             </div>
             <div className="contact-links">
-                <a>LinkedIn</a>
-                <a>Facebook</a>
-                <a>Instagram</a>
+                <FontAwesomeIcon className="brandIcons" icon="fa-brands fa-linkedin" />
+                <FontAwesomeIcon className="brandIcons" icon="fa-brands fa-facebook" />
+                <FontAwesomeIcon className="brandIcons" icon="fa-brands fa-instagram" />
             </div>
         </section>
     )

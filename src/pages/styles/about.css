@@ -6,7 +6,7 @@
     height: 100%;
     background-size: cover;
     background-position: center;
-    margin-top: 34.6vh;
+    margin-top: 33.3vh;
 }
 
 .me {
@@ -35,7 +35,9 @@
 
 .aboutText {
     width: 80%;
-    margin-bottom: 8vh;
+    margin: 5vh 0 10vh 0;
+    line-height: 23px;
+    font-size: 18px;
 }
 
 .verified {

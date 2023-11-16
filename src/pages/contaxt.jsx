@@ -2,12 +2,12 @@ import './styles/contact.css';
 
 export default function location() {
     return (
-        <div className="location">
+        <div className="location general">
             <div className="address">
-                <h5>58 Rossland Rd W, Unit 205</h5>
-                <h5>Oshawa ON L1G 2V5</h5>
-                <h5>madison@inbloomtherapy.ca</h5>
-                <h5>905 626 1741</h5>
+                <p>58 Rossland Rd W, Unit 205</p>
+                <p>Oshawa ON L1G 2V5</p>
+                <p>madison@inbloomtherapy.ca</p>
+                <p>905 626 1741</p>
             </div>
 
             <iframe

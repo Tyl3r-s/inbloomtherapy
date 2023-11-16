@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Sunflower:wght@300&family=Zeyada&display=swap');
 
 .landing {
-    margin-top: 34.6vh;
+    margin-top: 33.3vh;
     position: relative;
     display: flex;
     flex-wrap: wrap;
@@ -23,6 +23,7 @@
 
 .landingQuote {
     background-image: url(../../assets/thumbnail_IMG_0409.jpg);
+    background-color: white;
     background-size:contain;
     background-repeat: no-repeat;
     background-position: left;
@@ -33,11 +34,11 @@
 }
 
 .landingQuote h4 {
-    background-color: rgba(188, 244, 241, 0.995);
+    background-color: rgba(188, 244, 241, 0.901);
     padding: 15px;
     font-weight: 300;
     font-size: 3vh;
-    opacity: 0.8;
+    opacity: 1;
 }
 
 .welcomeText {
@@ -99,6 +100,11 @@
     margin-bottom: 10vh;
 }
 
+.helpIntroduction {
+    width: 80vw;
+    text-align: center;
+}
+
 .help p {
     text-align: center;
     margin: 10px;
@@ -114,6 +120,10 @@
     margin: 5vh 0 0 0;
 }
 
+.helpContainer p {
+    font-size: 19px;
+}
+
 .learnMore div {
     display: flex;
     width: 40%;
@@ -127,17 +137,31 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    height: 100%;
+    align-items: center;
+    height: 70vh;
     width: 100%;
 }
 
+.bookNow a {
+    color: rgb(21, 97, 97);
+    text-decoration: none;
+    padding: 10px 13px 17px 13px;
+    border: 2px rgb(164, 161, 161) solid;
+    height: 20px;
+    font-size: 22px;
+}
+
 .bookNow p {
+    font-size: 25px;
     text-align: center;
     width: 90%;
+    margin-bottom: 8vh;
 }
 
 .bookNowContainer {
-    margin: 5vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     width: 100%;
 }
 
@@ -180,6 +204,14 @@
         width: 100%;
         display: flex;
         justify-content: center;
+    }
+
+    .bookNow a {
+        font-size: 18px;
+    }
+    
+    .bookNow p {
+        font-size: 20px;
     }
 }
 
