@@ -55,6 +55,12 @@
     justify-content: center;
 }
 
+.billing {
+    width: 90vw;
+    margin-top: 10vh;
+    text-align: center;
+}
+
 @media screen and (max-width: 800px) {
     .services div {
         width: 80vw;

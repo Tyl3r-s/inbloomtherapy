@@ -25,7 +25,12 @@ iframe {
 
 .address p {
     font-size: 18px;
-    line-height: 50px;
+    line-height: 25px;
+    font-weight: bold;
+}
+
+.address p a {
+    text-decoration: none;
 }
 
 @media screen and (width < 700px) {

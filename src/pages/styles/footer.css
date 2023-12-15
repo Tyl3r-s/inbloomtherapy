@@ -16,6 +16,10 @@
     grid-gap: 30px;
 }
 
+.contact-links a {
+    text-decoration: none;
+}
+
 .brandIcons {
     margin: 1vh;
     height: 20px;

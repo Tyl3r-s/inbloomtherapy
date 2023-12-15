@@ -42,18 +42,14 @@
 }
 
 .welcomeText {
-    height: 70vh;
-}
-
-.welcomeText {
-    width: 80%;
     line-height: 30px;
     font-size: 20px;
-    font-family: 'Sunflower', sans-serif;
 }
 
 .welcomeText p {
+    width: 50%;
     padding: 10px;
+    margin-left: 3.5vw;
 }
 
 .booking {
@@ -184,7 +180,8 @@
     }
 
     .welcomeText p {
-        margin: 10vh 0 15vh 0;
+        margin: 2vh 0 10vh 0;
+        width: 90vw;
     }
 
     .booking {

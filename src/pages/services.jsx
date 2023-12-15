@@ -5,6 +5,14 @@ export default function services() {
     return (
         <div className="services general">
 
+            <section className="billing">
+                <p>Most insurance companies offer coverage for therapy services.
+                    <br />
+                    <br />
+                    Direct billing to insurance through my services will be available soon.
+                </p>
+            </section>
+
             <div className="introductory">
                 <h1>15 Minute Consultation</h1>
                 <p>

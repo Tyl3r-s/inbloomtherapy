@@ -10,10 +10,10 @@
     padding: 5px 0 9px 0;
     margin-top: 4vh;
     z-index: 9999;
+    align-items: center;
 }
 
 .logoTitle {
-    font-family: 'Sunflower', sans-serif;
     letter-spacing: 1px;
     margin: 0;
     font-size: 40px;
@@ -22,7 +22,7 @@
 }
 
 .logoWords {
-    margin: 13px 0 0 5px;
+    margin: 17px 0 0 5px;
     letter-spacing: 1px;
     font-family: 'Cedarville Cursive';
     font-size: 18px;
@@ -86,7 +86,6 @@ a:hover {
     }
     
     .logoTitle {
-        font-family: 'Sunflower', sans-serif;
         letter-spacing: 1px;
         margin-top: 3px;
         font-size: 30px;
@@ -140,4 +139,10 @@ a:hover {
     .bookingBtn {
         width: 200px;
     }
+}
+
+@media screen and (max-height: 750px) {
+    .bannerMenu a {
+        padding: 2px 10px;
+    }   
 }

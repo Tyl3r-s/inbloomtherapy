@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import portrait from '../assets/371aedee-b304-4146-99e6-8f9b36329215.jpg';
 import './styles/home.css';
 
 
@@ -9,8 +10,12 @@ export default function Home() {
 
       <div className="welcomeText landingSection">
 
+        <img src={portrait} alt="" className="me" />
+
         <p>
-          At In Bloom Therapy, my mission is to create a warm and empowering space for you to foster your mental and emotional wellbeing. I am passionate about providing high-quality therapeutic services that are specifically tailored to meet the unique needs and hopes of each individual, with a focus on compassion, authenticity, and understanding. My hope is to support you in navigating life’s challenges and rediscovering how resilient you really are.        </p>
+          At In Bloom Therapy, my mission is to create a warm and empowering space for you to foster your mental and emotional wellbeing. I am passionate about providing high-quality therapeutic services that are specifically tailored to meet the unique needs and hopes of each individual, with a focus on compassion, authenticity, and understanding. My hope is to support you in navigating life’s challenges and rediscovering how resilient you really are.
+        </p>
+
       </div>
 
       <div className="booking landingSection">
