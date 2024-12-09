@@ -10,6 +10,14 @@ export default function Navbar() {
         navRef.current.classList.toggle("responsive_nav")
     }
 
+    const scrollTop = () => {
+        window.scroll({
+            top: 0,
+            left: 0,
+            behaviour: "smooth",
+        })
+    }
+
     return (
         <div className="bannerMenu">
             <div className="logo">
@@ -20,13 +28,14 @@ export default function Navbar() {
                     <p className="logoWords">therapy and wellness</p>
                 </div>
             </div>
-            <nav className="navItems" ref={navRef}>
+            <nav className="navItems scrollToTopLink" ref={navRef}>
                 <Link onClick={showNavBar} to='/'> Home </Link>
                 <Link onClick={showNavBar} to='/about'> About </Link>
+                <Link onClick={showNavBar} to='/partners'> Team </Link>
                 <Link onClick={showNavBar} to='/services'> Services </Link>
                 {/* <Link to='/partners'> Partners </Link> */}
                 <Link onClick={showNavBar} to='/location'> Contact </Link>
-                <Link onClick={showNavBar} target="_blank" to="https://inbloomtherapy.janeapp.com/#staff_member/1" className="bookingBtn">BOOK NOW</Link>
+                <Link onClick={showNavBar} target="_blank" to="https://inbloomtherapy.janeapp.com/#/list" className="bookingBtn">BOOK NOW</Link>
 
                 <button className="nav-btn nav-btn-close" onClick={showNavBar}>
                     <FontAwesomeIcon icon="fa-solid fa-xmark" />

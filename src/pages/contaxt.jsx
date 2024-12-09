@@ -18,7 +18,7 @@ export default function location() {
                     </p>
                 </div>
                 <div className="address">
-                    <p><a href = "mailto: abc@example.com">madison@inbloomtherapy.ca</a></p>
+                    <p><a href = "mailto: abc@example.com">info@inbloomtherapy.ca</a></p>
                     <p><a href="tel:9056261741">905 626 1741</a></p>
                     <p>58 Rossland Rd W, Unit 205</p>
                     <p>Oshawa ON L1G 2V5</p>

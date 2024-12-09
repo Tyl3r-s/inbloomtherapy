@@ -10,6 +10,7 @@ import Location from './pages/contaxt';
 import Navbar from './pages/components/navBar';
 import './App.css';
 import './pages/styles/general.css';
+import ScrollToTop from './pages/components/ScrollToTop';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { faBars, faXmark } from '@fortawesome/free-solid-svg-icons'
@@ -21,6 +22,7 @@ library.add(faBars, faXmark, faLinkedin, faInstagram, faFacebook)
 export default function App() {
   return (
     <BrowserRouter>
+    <ScrollToTop />
     <Promo />
     <Navbar />
     <Banner />
